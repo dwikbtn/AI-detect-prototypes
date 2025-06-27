@@ -1,0 +1,14 @@
+[
+  {
+    "domain": "reddit.com",
+    "alert": "Reddit allows AI data training unless you opt out.",
+    "action": "mailto",
+    "target": "privacy@reddit.com"
+  },
+  {
+    "domain": "perplexity.ai",
+    "alert": "Perplexity may use inputs to train AI models.",
+    "action": "url",
+    "target": "https://www.perplexity.ai/opt-out"
+  }
+]

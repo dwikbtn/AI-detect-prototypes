@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+#alert {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#optOut {
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

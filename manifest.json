@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "ai-detect-prototypes",
+  "version": "0.1",
+  "description": "Warns users when visiting AI data-collecting websites and helps opt-out.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "options_page": "options/options.html"
+}
